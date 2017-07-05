@@ -1,6 +1,5 @@
 ---
 title: About
-date: 2017-07-05 10:03:00 Z
 permalink: "/about/"
 layout: post
 ---

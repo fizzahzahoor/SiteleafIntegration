@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-layout: page
+layout: post
 ---
 
 This is the About Page and it tells us about the site and <space><space>

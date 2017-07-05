@@ -2,7 +2,7 @@
 title: About
 permalink: "/about/"
 Field name: 
-layout: page
+layout: new_layout
 ---
 
 This is the About Page and it tells us about the site and <space><space>

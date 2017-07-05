@@ -3,7 +3,6 @@ title: Lorem Post
 date: 2017-07-05 09:39:00 Z
 tags:
 - abcd
-Key: fi/////
 ---
 
 # Ille tota vultus turis camini miles praetulit
@@ -54,4 +53,4 @@ adpuleram rem, quod deus. Libidine nec; cornua magni sociis neque. Rudi cadit
 Priami conveniant mensam.
 
 
-dmsnbfbjhsdbjhsdbbsdsdfbbdsbfsdfnsdfsdffsdfsd![testimonial-img2.jpg](/uploads/testimonial-img2.jpg)
+dmsnbfbjhsdbjhsdbbsdsdfbbdsbfsdfnsdfsdffsdfsd

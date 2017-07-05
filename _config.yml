@@ -2,6 +2,9 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  commercial-projects:
+    title: Commercial Projects
+    output: true
   posts:
     title: Posts
     output: true

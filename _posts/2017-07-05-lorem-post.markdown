@@ -1,8 +1,10 @@
 ---
 title: Lorem Post
 date: 2017-07-05 09:39:00 Z
+permalink: "/lorem-lorem"
 tags:
 - abcd
+layout: default
 ---
 
 # Ille tota vultus turis camini miles praetulit

@@ -3,7 +3,7 @@ title: Your awesome title
 timezone: UTC
 collections:
   projects:
-    title: Page-Properties
+    title: Landing-page types
     output: true
   posts:
     title: Posts

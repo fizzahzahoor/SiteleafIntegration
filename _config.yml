@@ -5,12 +5,6 @@ collections:
   commercial-projects:
     title: Commercial Projects
     output: true
-   defaults:
-  scope:
-    path: ''
-    type: 'commercial-projects'
-  values:
-    layout: 'new_layout'
   posts:
     title: Posts
     output: true
@@ -29,3 +23,9 @@ url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+   defaults:
+  scope:
+    path: ''
+    type: 'commercial-projects'
+  values:
+    layout: 'new_layout'

@@ -6,7 +6,7 @@ tags:
 layout: post
 ---
 
-# Ille tota vultus turis camini miles praetulit
+# tota vultus turis camini miles praetulit
 
 ## Fecisse alter Iuppiter
 

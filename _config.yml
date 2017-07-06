@@ -25,3 +25,18 @@ url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+
+   defaults:
+-
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "new_layout"
+
+    
+    
+    
+
+    
+

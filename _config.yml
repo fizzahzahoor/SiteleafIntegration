@@ -1,10 +1,6 @@
 ---
 title: Your awesome title
 timezone: UTC
-collections:
-  commercial-projects:
-    title: Commercial Projects
-    output: true
   posts:
     title: Posts
     output: true
@@ -23,9 +19,14 @@ url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-   defaults:
-  scope:
-    path: ''
-    type: 'commercial-projects'
-  values:
-    layout: 'new_layout'
+collections:
+  Commercial Projects:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "Commercial Projects" # a collection in your site, in plural form
+    values:
+      layout: "new_layout"

@@ -3,7 +3,7 @@ title: Lorem Post
 date: 2017-07-06 09:39:00 Z
 tags:
 - abcd
-layout: post
+layout: new_layout
 ---
 
 # tota vultus turis camini miles praetulit

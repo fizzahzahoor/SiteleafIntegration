@@ -14,7 +14,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: Commercial Projects
+    type: posts
   values:
     layout: new_layout
 email: your-email@domain.com
@@ -26,3 +26,4 @@ url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+

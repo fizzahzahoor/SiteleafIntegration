@@ -2,11 +2,11 @@
 title: Your awesome title
 timezone: UTC
 collections:
+  projects:
+    title: Page-Properties
+    output: true
   posts:
     title: Posts
-    output: true
-  projects:
-    title: Projects
     output: true
   uploads:
     title: Uploads

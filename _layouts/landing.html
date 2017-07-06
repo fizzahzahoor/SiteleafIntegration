@@ -2,124 +2,19 @@
 <html>
 
 {% include head.html %}
+  <body>
 
-<!-- These fields make the page look pretty on facebook and twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@apexure">
-  <meta name="twitter:title" content="{{page.project-name}}">
-  <meta name="twitter:description" content="{{page.description}}">
-  <meta name="twitter:image" content="{{ site.url }}/images/portfolio/landing-pages/{{page.image-name}}-full-version.jpg">
+    {% include header.html %}
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{page.project-name}}">
-  <meta property="og:description" content="{{page.description}}">
-  <meta property="og:url" content="{{page.url | prepend:site.url }}">
-  <meta property="og:image" content="{{ site.url }}/images/portfolio/landing-pages/{{page.image-name}}-full-version.jpg">
-  <script type="text/javascript">
-    function triggerMixpanel() {
-        mixpanel.track(
-            "LP Portfolio Visited", {
-                "Item": "{{page.project-name}}"
-            }
-        );
-    }
-  </script> 
-
-<!-- This code block adds Google Review Tags -->
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "WebPage",
-    "name": "{{page.project-name}}"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "{{page.client-name}}"
-  },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{page.client-title}}"
-  }
-}
-</script>
-
-
-<!-- {% assign lists = site.data.projects[page.project-name] %} -->
-{% assign lists = page.features %}
-
-<body onload="triggerMixpanel();">
-{% include header.html %}
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P593C44"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
-    <!-- this ensure the footer section only appears on LP portfoli items. -->
-    {% if page.id == 1 %} {{ content }} {% else %}
-    <div id="wrapper">
-        <div class="page-content page-content-background">
-            <section id="mid-section-post">
-                <!-- <div id="breadcrumbs">
-                    <a href="{{site.baseurl}}/">Home</a> /
-                    <a href="{{site.baseurl}}/landing-pages/">Landing Pages</a>
-                </div> -->
-
-
-
-                <section id="landing-page-features">
-                  <h3 id="project-name">{{page.project-name}}</h3>
-                  <h1 id="post-description">{{page.description}}</h1>
-                <hr>
-                    <h2>Landing Page Features:</h2>
-                    <ul>
-                        {% for list in lists %}
-                      <li><i class="fa fa-check"></i><span>{{lists[forloop.index]}}</span></li>
-                        {% endfor %}
-
-                    </ul>
-
-                    <!-- show section if we have a testimonial -->
-                    {% if page.client-testimonial %}
-                    <section id="review-from-clients">
-                        <div class="testimonials">
-                            <img src="{{site.baseurl}}/images/blockquotes.png">
-                            <p>{{ page.client-testimonial}}</p>
-                        </div>
-                        <div class="rating">
-                            <img src="{{site.baseurl}}/images/5-stars.png">
-                        </div>
-                        <div class="author">
-                            <img src="{{site.baseurl}}/images/author.png">
-                            <h3>{{ page.client-name}}</h3>
-                            <p>{{ page.client-title}}</p>
-                        </div>
-                    </section>
-
-
-                    {% endif %}
-                    <!-- <div class="cta">
-                        <a href="{{site.baseurl}}/contact-us/">Ready to discuss your next Landing Page?</a>
-                    </div> -->
-
-
-                </section>
-                </br>
-
-                <img src="{{site.baseurl}}/images/portfolio/landing-pages/{{page.image-name}}-full-version.jpg" class="img-responsive">
-
-            </section>
-        </div>
-        {% include successful-customers.html %} {% endif %} {% include footer.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
-</body>
+
+    {% include footer.html %}
+
+  </body>
+  this is the landing layout for the website
 
 </html>

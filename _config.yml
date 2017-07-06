@@ -17,7 +17,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: post
   values:
     layout: new_layout
 email: your-email@domain.com

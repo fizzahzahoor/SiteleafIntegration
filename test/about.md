@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-position: 1
+position: 0
 Field name: 
 layout: new_layout
 ---

@@ -5,6 +5,12 @@ collections:
   commercial-projects:
     title: Commercial Projects
     output: true
+   defaults:
+- scope:
+    path: ''
+    type: 'commercial-projects'
+  values:
+    layout: 'new_layout'
   posts:
     title: Posts
     output: true
@@ -14,12 +20,6 @@ collections:
   landing:
     title: landing
     output: true
-defaults:
-- scope:
-    path: ''
-    type: post
-  values:
-    layout: new_layout
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search

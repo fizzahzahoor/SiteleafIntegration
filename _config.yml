@@ -17,7 +17,7 @@ defaults:
     type: posts
   values:
     layout: landing
-    post-image: 
+    featured-image: 
     project-name: 
     description: 
     features: 

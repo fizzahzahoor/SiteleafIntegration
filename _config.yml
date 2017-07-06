@@ -12,22 +12,20 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -  
-    scope:
-      path: ''
-      type: posts
-    values:
-      layout: landing
-      image-name: 
-      project-name:   
-      description:
-      features:
-      client-testimonial:
-      client-name:
-      client-title:
-      page-type:
-      page-url:
-          
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: landing
+    image-name: 
+    project-name: 
+    description: 
+    features: 
+    client-testimonial: 
+    client-name: 
+    client-title: 
+    page-type: 
+    page-url: 
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search

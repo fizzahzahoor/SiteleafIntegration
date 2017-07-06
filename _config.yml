@@ -27,8 +27,8 @@ defaults:
     page-type: 
     page-url: 
     assets: 
-    is-asset:
-    items:
+    is-asset: 
+    items: 
     list: 
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this

@@ -6,7 +6,7 @@ collections:
     title: Commercial Projects
     output: true
    defaults:
-- scope:
+  scope:
     path: ''
     type: 'commercial-projects'
   values:

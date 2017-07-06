@@ -2,9 +2,6 @@
 title: Your awesome title
 timezone: UTC
 collections:
-  Commercial Projects:
-    output: true
-
   posts:
     title: Posts
     output: true
@@ -14,6 +11,12 @@ collections:
   landing:
     title: landing
     output: true
+defaults:
+- scope:
+    path: ''
+    type: Commercial Projects
+  values:
+    layout: new_layout
 email: your-email@domain.com
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -23,10 +26,3 @@ url: http://yourdomain.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-defaults:
-  -
-    scope:
-      path: ""
-      type: "Commercial Projects" # a collection in your site, in plural form
-    values:
-      layout: "new_layout"

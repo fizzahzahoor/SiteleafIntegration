@@ -5,7 +5,9 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
- <div id="prev-proj" mardown=1></div>
+{: prev-proj}[]
+
+
 
                
 

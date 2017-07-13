@@ -1,0 +1,130 @@
+<div class="modal fade" id="designModal" tabindex="-1" role="dialog" aria-labelledby="designModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <!-- step0 -->
+                <div class="step0">
+                    <div class="qbox q3">
+                        <p class="question" id="step1question">1. What service are you looking for?</p>
+                        <ul id="step0_listitems">
+                            <li data-class="design" class="qans qans3">DESIGN ONLY</li>
+                            <li data-class="build" class="qans qans3">BUILD ONLY</li>
+                            <li data-class="design-and-build" class="qans qans3">DESIGN + BUILD</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="con-btn">
+                            <button type="button" id="dm-cont0-btn" class="btn">Continue <span class="fa fa-arrow-right"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- step1 -->
+                <div class="step1">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="qbox q1">
+                                <p class="question">1. What is your space?</p>
+                                <ul>
+                                    <li class="qans qans1">RESIDENCE</li>
+                                    <li class="qans qans1">OFFICE</li>
+                                    <li class="qans qans1">RETAIL</li>
+                                    <li class="qans qans1">HOSPITALITY</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="qbox q2">
+                                <p class="question">2. When do you need work to begin?</p>
+                                <ul>
+                                    <li class="qans qans4">NOW</li>
+                                    <li class="qans qans4">1-3 MONTHS</li>
+                                    <li class="qans qans4">3-6 MONTHS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="qbox q3">
+                                <p class="question">3. Where is it located?</p>
+                                <select class="form-control" id="dm-city">
+                                    <option value="">Choose a city</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="qbox q4">
+                                <p class="question">4. What's YOUR budget? (e.g. 10000)</p>
+                                <input type="number" class="form-control" id="dm-budget" placeholder="£">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="qbox q5">
+                                <p class="question">5. What's the area of the space? (In Square Metres)</p>
+                                <input type="number" class="form-control" id="dm-space-area" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="qbox q6 show-on-design show-on-design-and-build">
+                            <p class="question">6. How many rooms do you want us to design?</p>
+                             <input type="number" class="form-control" id="dm-areas" placeholder="">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="qbox q7 show-on-design show-on-design-and-build">
+                                <p class="question">7. Do you have your own floor plan with dimensions of all walls?</p>
+                                <select class="form-control" id="dm-dimension">
+                                    <option value=""></option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="con-btn">
+                            <button type="button" id="dm-cont1-btn" class="btn">Continue <span class="fa fa-arrow-right"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- step2 -->
+            <div class="step2">
+                <div class="img-sec">
+                    <ul>
+                        <li>·Book an appointment with us.</li>
+                        <li> · One of our team members will be in </li>
+                        <li> · touch with you in the next 48 hours.</li>
+                    </ul>
+                </div>
+                <div class="form-sec">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <p>WELCOME TO AKIVA PROJECTS</p>
+                    <h2>How do we contact you?</h2>
+                    <div class="form-group">
+                        <input type="text" id="dm-fname" placeholder="FullName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="dm-mobile" placeholder="Mobile Number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="dm-email" placeholder="Email Address" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button id="dm-submit-btn" class="btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+</div>
+</div>

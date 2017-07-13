@@ -1,0 +1,23 @@
+                    <div id="proj-list">
+                        <div class="row">
+                            <ul id="slider1">
+                               {% for post in site.posts limit:9 %}
+                                 {% assign categories = post.class %}
+                                <li>
+                                    <div class="col-prev-work">
+                                       <div id="proj-li-1"> 
+                                            <div class="ovr">
+                                                  <img src="{{site.baseurl}}/img/{{post.img}}">
+                                                <div class="img-overlay"></div>
+                                            </div>
+                                            <h4>{{post.title}}</h4>
+                                            <p>{{post.description}}</p>
+                                            <div class="com-link"><a href="{{ post.url | prepend: site.baseurl }}">VIEW MORE</a></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                 {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end of #proj-list -->

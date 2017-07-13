@@ -5,4 +5,4 @@ banner-image: "/uploads/banner-2.jpg"
 layout: default
 ---
 
-/uploads/banner-2.jpg
+![banner-2.jpg](/uploads/banner-2.jpg)

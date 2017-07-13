@@ -1,0 +1,47 @@
+ {% include head.html %} {% include header.html %}
+ {% assign image-lists = page.images %}
+<div class="page-content">
+    <div class="wrapper">
+        <div id="header-content-gen">
+            <h1>{{page.title}}</h1>
+            <div class="side-link">
+                <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/img/home-icon.png"></a>
+                <a href="{{site.baseurl}}/projects/">/ Projects /</a>
+                <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+            </div>
+        </div>
+        <div id="main-wrap">
+            <div id="project-info">
+                <div id="proj-details">
+                    <h2>Project Details</h2>
+                    <ul class="slider4">
+                        {% for images in page.images %}
+                        <li><img src="{{site.baseurl}}/img/{{images}}" class="img-responsive"></li>
+                        {% endfor %}
+                    </ul>
+                    {{ content }}
+                </div>
+                {% include form.html %}
+            </div>
+        </div>
+        {% include request-consultation.html %}
+    </div>
+</div>
+
+{% include footer.html %}
+
+    <script type="text/javascript">
+   $('.slider4').bxSlider({
+        buildPager: function(slideIndex) {
+            switch (slideIndex) {
+                {% for list in image-lists %}
+                	case {{ forloop.index | minus: 1}}:
+                      return '<img src="{{site.baseurl}}/img/{{list}}">';
+
+       			{% endfor %}
+           }
+     	}
+    });
+     
+       
+    </script>

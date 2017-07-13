@@ -6,4 +6,3 @@ caption: ABOUT AKIVA PROJECTS
 layout: default
 ---
 
-![banner-2-d5644a.jpg](/banner-2-d5644a.jpg)

@@ -5,7 +5,7 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
-{: #prev-proj .container}
+{: #prev-proj}
 
 
 

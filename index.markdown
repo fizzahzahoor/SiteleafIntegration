@@ -5,8 +5,8 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
-{: prev-proj}
-hbhghgh
+hbhghgh{: prev-proj}
+
 
 
 

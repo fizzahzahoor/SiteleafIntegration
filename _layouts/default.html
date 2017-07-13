@@ -8,9 +8,10 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div id="header-content-gen">{{page.caption}}</div>
-      <div class="wrapper">
-        {{ content }}
+          <div class="wrapper">
+              <div id="header-content-gen">{{page.caption}}</div>
+            <div id="main-wrap">{{ content }}</div>
+
       </div>
     </div>
     {% include footer.html %}

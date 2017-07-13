@@ -5,5 +5,5 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
-{: .header-content}
+{: #prev-proj}
 

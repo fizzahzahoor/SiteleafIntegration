@@ -6,6 +6,7 @@ layout: default
 ---
 
 {: #prev-proj}
+{: .container}
 hbhghgh
 
 

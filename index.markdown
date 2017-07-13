@@ -7,3 +7,5 @@ layout: default
 
 {: .header-content}
 ghgfgf
+
+![banner.jpg](/uploads/banner.jpg)

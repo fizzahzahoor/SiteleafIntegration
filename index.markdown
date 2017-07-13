@@ -5,9 +5,3 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
-
-
-
- 
-               
-

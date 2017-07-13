@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="container">  
+         <div id="page-caption">{{page.caption}}</div>
+        <div class="services-description">
+          {{content}}
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class ="bottom-spacing"></div>
+    {% include footer.html %}
+
+  </body>
+
+</html>

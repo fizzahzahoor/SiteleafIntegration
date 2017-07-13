@@ -5,7 +5,3 @@ banner-image: "/uploads/banner.jpg"
 layout: default
 ---
 
-{: .header-content}
-ghgfgf
-
-vbgnv![banner.jpg](/uploads/banner.jpg)

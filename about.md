@@ -2,11 +2,8 @@
 title: About
 permalink: "/about-us/"
 position: 1
-Field name: 
+banner-image: "/uploads/banner-2-d5644a.jpg"
 layout: default
 ---
 
-This is the About Page and it tells us about the site and <space><space>
-it tells us about the people who created it.
-
-![testimonial-img2.jpg](/uploads/testimonial-img2.jpg)
+![banner-2-d5644a.jpg](/uploads/banner-2-d5644a.jpg)

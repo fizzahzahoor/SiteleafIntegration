@@ -1,7 +1,7 @@
 ---
 title: index
 date: 2017-07-13 08:13:00 Z
-banner-image: "/uploads/banner.jpg"
+banner-image: banner.jpg
 caption: PROJECT MANAGEMENT, DESIGN CONSULTANCY
 layout: layout_home
 ---

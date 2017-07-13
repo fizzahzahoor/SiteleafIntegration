@@ -1,9 +1,9 @@
 ---
 title: About
-permalink: "/about/"
+permalink: "/about-us/"
 position: 1
 Field name: 
-layout: new_layout
+layout: default
 ---
 
 This is the About Page and it tells us about the site and <space><space>

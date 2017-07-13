@@ -1,38 +1,110 @@
-<footer class="site-footer">
+     <!-- contact-info -->
+            <div id="contact-info">
+                <div id="cntct-grid" class="footwrapper">
 
-  <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-3 col-xs-12 footer-cntct">
+                            <div class="fl1">
+                                <h3>Contact Information</h3>
+                                <div id="margin-up">
+                                    <p><i class="fa fa-phone cntct-fa" aria-hidden="true"></i>Telephone: +44 203 865 2417 </p>
+                                    <p><i class="fa fa-envelope cntct-fa" aria-hidden="true"></i> E-mail: enquiries@akivaprojects.com</p>
+                                </div>
+                            </div>
+                            <!-- end of .fl1 -->
+                            <a href="https://itunes.apple.com/za/podcast/the-property-renovation-podcast/id1246863477?mt=2"><img src="{{site.baseurl}}/img/podcast.png" id="icon4-footer" class="img-responsive center-block"></a>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+                           <!--  <img src="{{site.baseurl}}/img/badges.png" id="icon2-footer" class="img-responsive center-block"> -->
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-12" >
+                            <div class="fl1">
+                                <h4>Customer Services</h4>
+                                <a href="{{site.baseurl}}/contact/">
+                                    <p>Contact Us</p>
+                                </a>
+                                <a href="{{site.baseurl}}/terms-conditions/">
+                                    <p>Terms & Conditions</p>
+                                </a>
+                                <a href="{{site.baseurl}}/faqs/">
+                                    <p>FAQ's</p>
+                                </a>
+                            </div>
+                             
+                            <!-- end of .fl1 -->
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-12">
+                            <h4>Learn More</h4>
+                            <a href="{{site.baseurl}}/about-us/">
+                                <p>Our Ethos</p>
+                            </a>
+                            <a href="{{site.baseurl}}/about-us/">
+                                <p>Meet the Team</p>
+                            </a>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-12">
+                            <h4>Our Services</h4>
+                            <a href="{{site.baseurl}}/projects/">
+                                <p>Our Projects</p>
+                            </a>
+                            <a href="{{site.baseurl}}/customer-reviews/">
+                                <p>What our customers say</p>
+                            </a>
+                            <p id="para-padng">Keep in the know</p>
+                            <div id="soc-icons">
+                                <a href="https://www.facebook.com/Akivaprojectsltd/">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://twitter.com/AkivaProjects">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.instagram.com/akivaprojectsltd/">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://uk.pinterest.com/AkivaProltd/">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="https://itunes.apple.com/za/podcast/the-property-renovation-podcast/id1246863477?mt=2"> <i class="fa fa-podcast" aria-hidden="true"></i></a>
+                                <a href="{{site.baseurl}}/contact/"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+                </div>
+                <!-- end of #cntct-grid -->
+                <div id="newsletter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-xs-12">
+                                <h3>Newsletter Sign Up</h3>
+                                <form method="POST" id="newsletter-signup">
+                                <input type="text" name="name" class="form-control" id="name"  placeholder="Enter your name">
+                                <input type="text" name="email" class="form-control" id="email" placeholder="Enter your email">
+                                <button type="submit" id="submit-btn" class="btn">SUBSCRIBE</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of #newsletter -->
+            </div>
+            <!-- end of #contact-info -->
+            <div id="footer">
+                <div class="row">
+                    <div class="col-sm-7 col-xs-12">
+                        <div id="grn">AKIVA PROJECTS </div>
+                        <p> © 2016 | VAT No. 179 6695 34</p>
+                    </div>
+                    <div class="col-sm-5 col-xs-12">
+                        <div class="foot-links">
+                            <a href="{{site.baseurl}}/terms-conditions/">Terms & Conditions</a>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of #footer -->
 
-  </div>
+</body>
 
-</footer>
+</html>

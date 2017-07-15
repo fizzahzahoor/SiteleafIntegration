@@ -19,4 +19,3 @@ testimonial-1:
 layout: layout_home
 ---
 
-fgfb bxfgb

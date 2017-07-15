@@ -14,8 +14,7 @@ why-choose-us:
 - '1': 10 YEARS OF PREVIOUS EXPERIENCE
   '2': "WE ALWAYS \nDELIVER ON TIME & ON BUDGET"
   '3': "HASSLE-FREE \nITEMMISED COSTINGS"
-features:
-  '1': Landing Page Integrated with AutopilotHQ.
+features-image:
   '2': ldfvkhfdiu
   '3': ferfefdff
 layout: layout_home

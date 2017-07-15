@@ -15,7 +15,7 @@ why-choose-us:
   '2': "WE ALWAYS \nDELIVER ON TIME & ON BUDGET"
   '3': "HASSLE-FREE \nITEMMISED COSTINGS"
 features:
-  '1': project-management-banner.jpg
+  '1': knowledge
   '2': project-management-banner.jpg
 layout: layout_home
 ---

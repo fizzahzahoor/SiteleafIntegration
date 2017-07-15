@@ -16,6 +16,8 @@ why-choose-us:
   '3': "HASSLE-FREE \nITEMMISED COSTINGS"
 features:
   '1': Landing Page Integrated with AutopilotHQ.
+  '2': ldfvkhfdiu
+  '3': ferfefdff
 layout: layout_home
 ---
 

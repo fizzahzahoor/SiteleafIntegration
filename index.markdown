@@ -13,5 +13,5 @@ company-description: Akiva Projects are a project management and bespoke interio
 layout: layout_home
 ---
 
-##### PREVIOUS
+
 

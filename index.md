@@ -13,9 +13,9 @@ company-description: Akiva Projects are a project management and bespoke interio
 features:
 - image: badges.png
   description: 
-testimonial:
-- image: "/uploads/logo.png"
-  description: 
+testimonial-1:
+- image-1: "/uploads/logo.png"
+  description-1: 
 layout: layout_home
 ---
 

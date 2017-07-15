@@ -14,9 +14,9 @@ why-choose-us:
 - '1': 10 YEARS OF PREVIOUS EXPERIENCE
   '2': "WE ALWAYS \nDELIVER ON TIME & ON BUDGET"
   '3': "HASSLE-FREE \nITEMMISED COSTINGS"
-features-image:
-  '2': ldfvkhfdiu
-  '3': ferfefdff
+features:
+  '1': ldfvkhfdiu
+  '2': ferfefdff
 layout: layout_home
 ---
 

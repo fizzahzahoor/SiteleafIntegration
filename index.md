@@ -14,7 +14,7 @@ features:
 - image: badges.png
   description: 
 testimonial:
-- image: 
+- image: "/uploads/logo.png"
   description: 
 layout: layout_home
 ---

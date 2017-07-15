@@ -2,7 +2,7 @@
 title: Commercial Interior Designers | Home Interior Designers | Akiva Projects
 excerpt: Trust Akiva Projects to deliver on your contemporary or classic home or commercial
   interior design requirements
-bacground-image: 
+background-image: 
 caption: PROJECT MANAGEMENT, DESIGN <br> CONSULTANCY
 company-description: Akiva Projects are a project management and bespoke interior
   design company dedicated to helping you complete your renovation project on time

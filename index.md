@@ -11,9 +11,9 @@ company-description: Akiva Projects are a project management and bespoke interio
   increase its value or a townhouse renovation to bring your property back to life,
   we can help.
 testimonial-images:
-- badges.png
-- badges.png
-- badges.png
+- .png
+- .png
+- .png
 layout: layout_home
 ---
 

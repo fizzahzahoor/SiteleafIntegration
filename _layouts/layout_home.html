@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
      {% assign lists = page.features %}
     <div class="page-content">
       <div class="wrapper">
           <div class="header-content">
-            {{ page.background-image }}
           <div id="heading-banner">
               <p>PREMIUM</p>
               <h1 class="home-banner-text">{{ page.caption }}</h1>
@@ -39,6 +35,7 @@
             </div>
         </div>
     </div>
+    <!-- #why-choose-us -->
     <div id="why-chose-us">
         <div class="container">
             <div class="com-heading">
@@ -50,69 +47,67 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-xs-12 col-bdr">
                             <div class="com-grid">
-                                
-                                <div id=img1>
-                                {% for list in lists %}
-                                  <img src="img/{{ list[1] }}" class="img-responsive">
+                                <div id=img1> <img src="{{site.baseurl}}/img/knowledge.png">
                                     <div id="img1-bkg"></div>
                                 </div>
-                                <p></p>
-
-                                 {% endfor %}
+                                <p>10 years of
+                                    <br>Previous Experience</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12 col-bdr">
                             <div class="com-grid">
-<!--                                 <div id=img2><img src="{{site.baseurl}}/img/stopwatch.png">
+                                <div id=img2><img src="{{site.baseurl}}/img/stopwatch.png">
                                     <div id="img2-bkg"></div>
                                 </div>
                                 <p>WE ALWAYS
-                                    <br> Deliver on time & on budget</p> -->
+                                    <br> Deliver on time & on budget</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12">
                             <div class="com-grid">
-<!--                                 <div id="img3"><img src="{{site.baseurl}}/img/money.png">
+                                <div id="img3"><img src="{{site.baseurl}}/img/money.png">
                                     <div id="img3-bkg"></div>
                                 </div>
                                 <p>Hassle-free
-                                    <br> ITEMMISED Costings</p> -->
+                                    <br> ITEMMISED Costings</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12 col-bdr col-bdtop">
                             <div class="com-grid">
-<!--                                 <div id="img4"><img src="{{site.baseurl}}/img/interview.png">
+                                <div id="img4"><img src="{{site.baseurl}}/img/interview.png">
                                     <div id="img4-bkg"></div>
                                 </div>
                                 <p>Free consultation
                                     <br>
                                     <span id="italic-p">with no obligations</span>
-                                </p> -->
+                                </p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12 col-bdr col-bdtop">
                             <div class="com-grid">
-<!--                                 <div id="img5"><img src="{{site.baseurl}}/img/manager.png">
+                                <div id="img5"><img src="{{site.baseurl}}/img/manager.png">
                                     <div id="img5-bkg"></div>
                                 </div>
                                 <p>Projects MAnaged via
-                                    <br>basecamp project management</p> -->
+                                    <br>basecamp project management</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12 col-bdtop" id="od-gr">
                             <div class="com-grid">
-<!--                                 <div id="img6"><img src="{{site.baseurl}}/img/pinterest.png">
+                                <div id="img6"><img src="{{site.baseurl}}/img/pinterest.png">
                                     <div id="img6-bkg"></div>
                                 </div>
                                 <p>Collaborative Houzz idea books
-                                    <br> & pinterest boards</p> -->
+                                    <br> & pinterest boards</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--end of .container  -->
     </div>
+    <!-- end of #why-chose-us -->
         <div id="custom-say">
         <div class="container">
             <div class="com-heading">

@@ -1,5 +1,5 @@
  ---
- title: index
+ title: Akiva Projects
  date: 2017-07-13 08:13:00 Z
  layout: layout_home
  banner-image: banner.jpg
@@ -11,4 +11,4 @@
   project requirement, whether it’s a bespoke kitchen to enjoy your home more and
   increase its value or a townhouse renovation to bring your property back to life,
   we can help.
-  ---
+---

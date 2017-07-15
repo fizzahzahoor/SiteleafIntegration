@@ -121,10 +121,10 @@
             <div class="row">
                 <ul id="slider2">
                   
-                  {% for list in page.testimonial %}
+                  {% for list in page.testimonial-images %}
                     <li>
                         <section id="test-section" class="row">
-                            {{ page.list[1] }}
+                            <img src="{{site.baseurl}}/img/{{post.img}}">
                         </section>
                         <div> <img src="img/blockquote.png" class="blk"></div>
                         <div id="testimonial-text">

@@ -1,6 +1,7 @@
 ---
 title: index
 date: 2017-07-13 08:13:00 Z
+layout: layout_home
 banner-image: banner.jpg
 caption: PROJECT MANAGEMENT, DESIGN <br> CONSULTANCY
 company-description: Akiva Projects are a project management and bespoke interior
@@ -10,7 +11,9 @@ company-description: Akiva Projects are a project management and bespoke interio
   project requirement, whether it’s a bespoke kitchen to enjoy your home more and
   increase its value or a townhouse renovation to bring your property back to life,
   we can help.
-layout: layout_home
+ customjs:
+ - scripts/main.js
+
 ---
 
 

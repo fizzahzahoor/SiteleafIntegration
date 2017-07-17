@@ -120,6 +120,7 @@
     function generateRandomPosts(callback)
     {
         $.getJSON("/all_posts.json", function(data) {
+                    console.log(data);
            // var random_data = [];
             var random_indexes = [];
             while(random_indexes.length < 9) {

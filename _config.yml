@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  testimonials:
+    title: testimonials
+    output: true
 defaults:
 - scope:
     path: ''

@@ -103,13 +103,13 @@ a:hover {
     display: inline-block;
 }
 
-.header-content {
+/* .header-content {
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
     text-align: center;
-}
+} */
 
 #heading-banner {
     padding: 200px 0px;
